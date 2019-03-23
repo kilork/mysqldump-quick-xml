@@ -1,0 +1,18 @@
+[package]
+name = "mysqldump-quick-xml"
+version = "0.1.0"
+authors = ["Alexander Korolev <kilork@yandex.ru>"]
+license = "Unlicense OR MIT"
+description = """
+Convert from mysqldump in xml format to struct using quick-xml.
+"""
+readme = "README.md"
+homepage = "https://github.com/kilork/mysqldump-quick-xml"
+repository = "https://github.com/kilork/mysqldump-quick-xml"
+keywords = ["mysql", "mysqldump", "parser"]
+categories = ["database", "parsing"]
+edition = "2018"
+
+[dependencies]
+mysqldump-quick-xml-derive = "0.1"
+quick-xml = "0.13"
